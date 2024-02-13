@@ -44,4 +44,4 @@ jobs:
           server: ftp.javascriptshitposti.ng
           username: deploy@javascriptshitposti.ng
           password: ${{secrets.FTP_PASSWORD}}
-          local-dir: .
+          local-dir: ./
